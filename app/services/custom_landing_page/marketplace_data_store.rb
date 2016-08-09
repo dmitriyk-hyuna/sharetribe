@@ -33,6 +33,8 @@ module CustomLandingPage
       search_type =
         if private
           "private"
+        elsif main_search == "keyword_and_location"
+          "keyword_and_location_search"
         elsif main_search == "location"
           "location_search"
         else
