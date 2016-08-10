@@ -273,7 +273,6 @@
     }
 
     @nest .form:hover & {
-
       & svg {
         stroke: var(--SearchBar_iconColorActive);
       }
